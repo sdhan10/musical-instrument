@@ -65,7 +65,7 @@ class MindTest extends React.Component {
     }
 
     return (
-      <div className="mindTest d-flex justify-content-center p-5">
+      <div className="mindTest d-flex justify-content-center p-2">
         <Card style={{ width: "30rem" }}>
           <Card.Body>
             {this.state.start && <Introduction onStart={this.handleStart} />}
