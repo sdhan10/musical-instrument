@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38926bb77e47fc226a8380c0de0991f2",
+    "revision": "640a72938e9a837fd0e3427b9cf97856",
     "url": "/musical-instrument/index.html"
   },
   {
-    "revision": "0e789276c1402f078366",
-    "url": "/musical-instrument/static/css/main.1c658491.chunk.css"
+    "revision": "96fb1344d3f9b221d13c",
+    "url": "/musical-instrument/static/css/main.03bbdbfd.chunk.css"
   },
   {
     "revision": "c374a9f127012e5cfb9d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/musical-instrument/static/js/2.71c16611.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e789276c1402f078366",
+    "revision": "96fb1344d3f9b221d13c",
     "url": "/musical-instrument/static/js/main.83a46a1b.chunk.js"
   },
   {
