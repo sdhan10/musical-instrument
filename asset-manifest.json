@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/musical-instrument/static/css/main.1c658491.chunk.css",
+    "main.js": "/musical-instrument/static/js/main.83a46a1b.chunk.js",
+    "main.js.map": "/musical-instrument/static/js/main.83a46a1b.chunk.js.map",
+    "runtime-main.js": "/musical-instrument/static/js/runtime-main.0881b170.js",
+    "runtime-main.js.map": "/musical-instrument/static/js/runtime-main.0881b170.js.map",
+    "static/js/2.71c16611.chunk.js": "/musical-instrument/static/js/2.71c16611.chunk.js",
+    "static/js/2.71c16611.chunk.js.map": "/musical-instrument/static/js/2.71c16611.chunk.js.map",
+    "index.html": "/musical-instrument/index.html",
+    "precache-manifest.32a0c72b89e1a2f0bfe42b9c1bc12230.js": "/musical-instrument/precache-manifest.32a0c72b89e1a2f0bfe42b9c1bc12230.js",
+    "service-worker.js": "/musical-instrument/service-worker.js",
+    "static/css/main.1c658491.chunk.css.map": "/musical-instrument/static/css/main.1c658491.chunk.css.map",
+    "static/js/2.71c16611.chunk.js.LICENSE.txt": "/musical-instrument/static/js/2.71c16611.chunk.js.LICENSE.txt",
+    "static/media/paper-kit.min.css": "/musical-instrument/static/media/nucleo-icons.f32ed5ad.eot",
+    "static/media/paper-kit.css.map": "/musical-instrument/static/media/paper-kit.css.6898acb8.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0881b170.js",
+    "static/js/2.71c16611.chunk.js",
+    "static/css/main.1c658491.chunk.css",
+    "static/js/main.83a46a1b.chunk.js"
+  ]
+}
