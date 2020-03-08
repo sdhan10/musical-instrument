@@ -1,9 +1,9 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import MindTest from "./MindTest";
+import MusicalInstrument from "./MusicalInstrument";
 
 test("renders learn react link", () => {
-  const { getByText } = render(<MindTest />);
+  const { getByText } = render(<MusicalInstrument />);
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });

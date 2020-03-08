@@ -1,24 +1,25 @@
 import React from "react";
-import { Button } from "react-bootstrap";
+import { Button } from "reactstrap";
 
 function Questions(props) {
-  const { questions, handleClick } = props;
+  const { current_question, handleClick } = props;
 
   return (
     <div className="text-center">
-      <h2 className="p-5">질문 #{questions.id}</h2>
-      <p>{questions.question}</p>
+      <h4>{current_question.question}</h4>
       <div className="options">
-        {questions.options.map((option, index) => (
+        {current_question.options.map((option, index) => (
           <div>
             <Button
               className="mt-4"
-              variant="outline-info"
-              key={option}
+              outline
+              color="info"
+              key={option.answer}
               value={index}
               onClick={e => handleClick(e.target.value)}
             >
-              {option}
+              <i className="nc-icon nc-check-2"></i>
+              {option.answer}
             </Button>
           </div>
         ))}

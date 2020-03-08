@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Button, Card } from "react-bootstrap";
+import { Button } from "reactstrap";
 import { introduction } from "./contents/introduction";
 
 function Introduction(props) {
@@ -10,7 +10,7 @@ function Introduction(props) {
       <p>{introduction.sub_title}</p>
       <p className="p-3">{introduction.description}</p>
       <div className="p-5">
-        <Button variant="outline-primary" onClick={props.onStart}>
+        <Button className="btn-round" color="primary" onClick={props.onStart}>
           시작하기
         </Button>
       </div>

@@ -1,24 +1,17 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+import { Button } from "reactstrap";
 
 function Conclusion(props) {
-  const { questions, answer, restart } = props;
+  const { result, restart } = props;
 
-  const summary = questions.map((question, index) => (
-    <div key={index}>
-      <h4>질문 #{question.id}</h4>
-      <p>{question.question}</p>
-      <p>대답 : {question.options[answer[index]]}</p>
-    </div>
-  ));
   return (
     <div className="text-center">
-      <h1 className="p-5">결과</h1>
-      <p className="p-5">당신은 ~~~~~ </p>
-      {summary}
+      <img style={{ height: "20rem" }} src={result.image} alt=""></img>
+      <h2 className="p-3">{result.title}</h2>
+      <h5 className="p-2">{result.text}</h5>
       <div className="p-5">
-        <Button variant="outline-warning" onClick={restart}>
-          Restart!
+        <Button className="btn-round" color="warning" onClick={restart}>
+          다시 검사하기
         </Button>
       </div>
     </div>
