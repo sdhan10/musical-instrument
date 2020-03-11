@@ -8,7 +8,7 @@ function Conclusion(props) {
     <div className="text-center">
       <img style={{ height: "20rem" }} src={result.image} alt=""></img>
       <h2 className="p-3">{result.title}</h2>
-      <h5 className="p-2">{result.text}</h5>
+      <p className="p-2">{result.text}</p>
       <div className="p-5">
         <Button className="btn-round" color="warning" onClick={restart}>
           다시 검사하기
