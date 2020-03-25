@@ -1,23 +1,56 @@
+import image0 from "../images/0.jpg";
+import image1 from "../images/1.jpg";
+import image2 from "../images/2.jpg";
+import image3 from "../images/3.jpg";
+import image4 from "../images/4.jpg";
+import image5 from "../images/5.jpg";
+import image6 from "../images/6.jpg";
+import Image7 from "../images/7.jpg";
+import image8 from "../images/8.jpg";
+import image9 from "../images/9.jpg";
+import image10 from "../images/10.jpg";
+import image11 from "../images/11.jpg";
+import image12 from "../images/12.jpg";
+import image13 from "../images/13.jpg";
+import image14 from "../images/14.jpg";
+import image15 from "../images/15.jpg";
+import image16 from "../images/16.jpg";
+import image17 from "../images/17.jpg";
+import image18 from "../images/18.jpg";
+import image19 from "../images/19.jpg";
+import image20 from "../images/20.jpg";
+import image21 from "../images/21.jpg";
+import image22 from "../images/22.jpg";
+import image23 from "../images/23.jpg";
+import image24 from "../images/24.jpg";
+import image25 from "../images/25.jpg";
+import image26 from "../images/26.jpg";
+import image27 from "../images/27.jpg";
+
 export const question_tree = {
   question: "내가 선호하는 음악 장르는?",
   options: [
     {
       answer: "전통있는 클래식",
+      image: image0,
       next_question: {
         question: "주변 사람들이 보는 나의 성격은?",
         options: [
           {
             answer: "신중하고 사려깊다.",
+            image: image2,
             next_question: {
               question: "직장에서 내가 일 하는 스타일은?",
               options: [
                 {
                   answer: "팀원들과 활발히 의논하고 협업한다.",
+                  image: image6,
                   next_question: {
                     question: "내가 갖고싶은 목소리는?",
                     options: [
                       {
                         answer: "깨끗하고 힘찬 목소리",
+                        image: image14,
                         next_question: null,
                         result: {
                           image:
@@ -29,6 +62,7 @@ export const question_tree = {
                       },
                       {
                         answer: "차분하고 부드러운 목소리",
+                        image: image15,
                         next_question: null,
                         result: {
                           image:
@@ -43,11 +77,13 @@ export const question_tree = {
                 },
                 {
                   answer: "내가 맡은 업무를 혼자서 열심히 한다.",
+                  image: Image7,
                   next_question: {
                     question: "내가 사업을 한다면?",
                     options: [
                       {
                         answer: "모든 곳에 보편적으로 적용시킬 수 있는 분야",
+                        image: image16,
                         next_question: null,
                         result: {
                           image:
@@ -59,6 +95,7 @@ export const question_tree = {
                       },
                       {
                         answer: "특이하고 남들이 잘 시도하지 않는 분야",
+                        image: image17,
                         next_question: null,
                         result: {
                           image:
@@ -76,16 +113,19 @@ export const question_tree = {
           },
           {
             answer: "털털하고 호탕하다.",
+            image: image3,
             next_question: {
               question: "팀 과제를 수행할 때 내 모습은?",
               options: [
                 {
                   answer: "적극적으로 할일을 찾아나선다.",
+                  image: image8,
                   next_question: {
                     question: "무대 위에서 뭔가를 한다면?",
                     options: [
                       {
                         answer: "연극이나 뮤지컬",
+                        image: image18,
                         next_question: null,
                         result: {
                           image:
@@ -97,6 +137,7 @@ export const question_tree = {
                       },
                       {
                         answer: "토크 콘서트",
+                        image: image19,
                         next_question: null,
                         result: {
                           image:
@@ -111,11 +152,13 @@ export const question_tree = {
                 },
                 {
                   answer: "일을 최대한 안 맡으려는 편이다.",
+                  image: image9,
                   next_question: {
                     question: "상품을 타기 위해 물 속에서 잠수를 해야한다면?",
                     options: [
                       {
                         answer: "거뜬히 오래할 수 있다.",
+                        image: image10,
                         next_question: null,
                         result: {
                           image:
@@ -127,6 +170,7 @@ export const question_tree = {
                       },
                       {
                         answer: "잠수 대신 다른 장기를 보이겠다.",
+                        image: image11,
                         next_question: null,
                         result: {
                           image:
@@ -147,21 +191,25 @@ export const question_tree = {
     },
     {
       answer: "세련된 재즈 &  팝",
+      image: image1,
       next_question: {
         question: "직장에서 나의 역할은?",
         options: [
           {
             answer: "일을 주도하는 리더",
+            image: image4,
             next_question: {
               question: "상품을 타기 위해 물 속에서 잠수를 해야한다면?",
               options: [
                 {
                   answer: "거뜬히 오래할 수 있다.",
+                  image: image10,
                   next_question: {
                     question: "새로운 사람을 만났을 때 나는?",
                     options: [
                       {
                         answer: "처음엔 아무래도 조심스럽다.",
+                        image: image20,
                         next_question: null,
                         result: {
                           image:
@@ -173,6 +221,7 @@ export const question_tree = {
                       },
                       {
                         answer: "처음부터 나의 매력을 발산한다.",
+                        image: image21,
                         next_question: null,
                         result: {
                           image:
@@ -187,11 +236,13 @@ export const question_tree = {
                 },
                 {
                   answer: "잠수 대신 다른 장기를 보이겠다.",
+                  image: image11,
                   next_question: {
                     question: "칭찬을 받았을 때 나는?",
                     options: [
                       {
                         answer: "고맙습니다!",
+                        image: image22,
                         next_question: null,
                         result: {
                           image:
@@ -203,6 +254,7 @@ export const question_tree = {
                       },
                       {
                         answer: "하하,  역시  보는 눈이 있으시군요",
+                        image: image23,
                         next_question: null,
                         result: {
                           image:
@@ -220,16 +272,19 @@ export const question_tree = {
           },
           {
             answer: "리더를 돕는 멤버",
+            image: image5,
             next_question: {
               question: "친구들과 대화할 때 나는?",
               options: [
                 {
                   answer: "적당히 눈치를 보며 분위기를 더 재미있게 이끌어간다.",
+                  image: image12,
                   next_question: {
                     question: "나의 좌우명은?",
                     options: [
                       {
                         answer: "노력은 배신하지 않는다.",
+                        image: image24,
                         next_question: null,
                         result: {
                           image:
@@ -241,6 +296,7 @@ export const question_tree = {
                       },
                       {
                         answer: "적당히 즐기며 살자.",
+                        image: image25,
                         next_question: null,
                         result: {
                           image:
@@ -255,11 +311,13 @@ export const question_tree = {
                 },
                 {
                   answer: "친구들이 하는 얘기를 재미있게 듣고 웃는다.",
+                  image: image13,
                   next_question: {
                     question: "나는 화가날 때?",
                     options: [
                       {
                         answer: "웬만하면 참는 편이다",
+                        image: image26,
                         next_question: null,
                         result: {
                           image:
@@ -271,6 +329,7 @@ export const question_tree = {
                       },
                       {
                         answer: "그래도 말은 해야한다.",
+                        image: image27,
                         next_question: null,
                         result: {
                           image:

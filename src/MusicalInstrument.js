@@ -30,17 +30,17 @@ class MusicalInstrument extends React.Component {
     });
   };
 
-  next = value => {
+  next = index => {
     const current_question = this.state.current_question;
-    const next_question = current_question.options[value].next_question;
+    const next_question = current_question.options[index].next_question;
 
     if (next_question) {
       this.setState({
         current_question: next_question
       });
-    } else if (current_question.options[value].result) {
+    } else if (current_question.options[index].result) {
       this.setState({
-        result: current_question.options[value].result
+        result: current_question.options[index].result
       });
     }
   };
@@ -48,7 +48,7 @@ class MusicalInstrument extends React.Component {
   render() {
     return (
       <div className="musical-instrument d-flex justify-content-center p-2">
-        <Card style={{ width: "30rem" }} className="card-plain">
+        <Card style={{ width: "50rem" }} className="card-plain">
           <CardBody>
             {this.state.start && <Introduction onStart={this.handleStart} />}
             {!this.state.start && !this.state.result && (
