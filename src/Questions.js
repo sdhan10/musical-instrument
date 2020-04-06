@@ -9,7 +9,7 @@ import {
   Col
 } from "reactstrap";
 
-function Questions(props) {
+const Questions = props => {
   const { current_question, handleClick } = props;
 
   return (
@@ -41,6 +41,6 @@ function Questions(props) {
       </Container>
     </div>
   );
-}
+};
 
 export default Questions;

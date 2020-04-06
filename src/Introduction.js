@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import { Button } from "reactstrap";
 import { introduction } from "./contents/introduction";
 
-function Introduction(props) {
-  const [open, setOpen] = useState(false);
+const Introduction = props => {
   return (
     <div className="text-center">
       <h1 className="p-5">{introduction.title}</h1>
@@ -16,6 +15,6 @@ function Introduction(props) {
       </div>
     </div>
   );
-}
+};
 
 export default Introduction;

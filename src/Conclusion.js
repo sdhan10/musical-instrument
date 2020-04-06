@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "reactstrap";
 
-function Conclusion(props) {
+const Conclusion = props => {
   const { result, restart } = props;
 
   return (
@@ -16,6 +16,6 @@ function Conclusion(props) {
       </div>
     </div>
   );
-}
+};
 
 export default Conclusion;
